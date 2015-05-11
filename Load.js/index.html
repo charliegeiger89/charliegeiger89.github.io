@@ -16,7 +16,7 @@
         for ( var i = 0; i < 100; i++ ) {
             var div = document.createElement('div');
                 div.className = 'item';
-                div.style.backgroundImage = 'http://placekitten.com/' + Math.random()*100 + '/' + Math.random()*100;
+                div.style.backgroundImage = 'http://placekitten.com/' + Math.round(Math.random()*1000) + '/' + Math.round(Math.random()*1000);
             document.body.appendChild(div);
         }
     </script>
